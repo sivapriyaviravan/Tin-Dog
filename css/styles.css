@@ -1,0 +1,180 @@
+
+
+body {
+
+  font-family:"Montserrat";
+
+  }
+
+  h1{
+    font-family:"Montserrat";
+    color: white;
+    font-weight: 900;
+    font-size:2.5rem;
+   line-height:1.5;
+
+  }
+  h2{
+    font-family:"Montserrat";
+    font-weight: 900;
+    font-size:2.5rem;
+    line-height:1.5;
+  }
+  h3{
+    font-family:"Montserrat";
+    font-weight: 900;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  p{
+    font-family:"Montserrat";
+    color:#8f8f8f;
+    font-weight: 400;
+
+  }
+
+#title{
+  background-color: #ff4c68;
+}
+.container-fluid
+{
+  padding: 3% 15% 7%; /*padding bottom is give to display more the img's hidden part*/
+}
+/* navigation bar */
+.navbar
+{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 1.9rem;
+  font-weight:bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link
+{
+  font-family: "Montserrat"
+  font-weight:"bold";
+
+}
+/* download button */
+.download-button
+{
+  margin:5% 3% 5% 0;
+
+}
+/* title image */
+.title-img
+{
+  width:50%;
+  /* tranform function to tilt the image ;it roates the image 25deg */
+  transform: rotate(25deg);
+  position: absolute;
+  right: 35%; /*to push the img towards right */
+}
+/* features section */
+#features{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;/*to hide the image behind with the z-index prop*/
+  position:relative;
+  z-index:1;
+
+}
+
+.fea-box{
+ padding:0 5%;
+ text-align: center;
+}
+.icon
+{
+  margin-bottom: 2rem;
+  text-align: center;
+  display:block;
+
+}
+.icon:hover
+{
+  color:#ff4c68;
+}
+/* testimonials */
+#testimonials
+{
+  text-align: center;
+  background-color:#ef8172;
+  color:white;
+}
+.test-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* just to space out the carousel buttons */
+
+.carousel-item{
+  padding: 7% 15%;
+}
+/* press-section */
+#press
+{
+   background-color:#ef8172; /*to merge with above section */
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img
+{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+/* pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-tab
+{
+  padding: 3% 2%;
+}
+
+/* call to action section */
+#cta
+{
+  color:#fff;
+  background-color:#ff4c68;
+  padding: 7% 15%;
+  text-align:center;
+
+}
+.cta-heading
+{
+
+  font-family: "Montserrat";
+  font-weight: "bold";
+  line-height: 1.5;
+  font-size: 2rem;
+
+}
+/* footer section */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon
+{
+  margin:20px 10px;
+}
+
+@media(max-width:1028px)
+{
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;/*occupies full space it requires when in mobile screen */
+    transform: rotate(0);/*absolute roation which brings it back to the straight pos */
+  }
+}
